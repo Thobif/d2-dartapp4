@@ -4,7 +4,7 @@ void main(List<String> args) {
   int age = 18;
   //String? nationality = '';
   print('Enter nationality: ');
-  String? nationality = stdin.readLineSync()!;
+  String? nationality = stdin.readLineSync();
 
   switch (nationality) {
     case 'th':
